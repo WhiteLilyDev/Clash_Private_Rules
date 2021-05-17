@@ -6,39 +6,52 @@ private function only
 port: 7890
 <br/>
 socks-port: 7891
-
+<br/>
 redir-port: 7892
-
+<br/>
 mixed-port: 7893
-
+<br/>
 allow-lan: false
-
+<br/>
 mode: Rule
+<br/>
 log-level: error
+<br/>
 ipv6: false
+<br/>
 external-controller: 127.0.0.1:50048
 
 ## 配置解释:
 ### hosts
 添加了
+<br/>
 mtalk.google.com
+<br/>
 services.googleapis.cn
+<br/>
 raw.githubusercontent.com
 
 ### DNS:
 默认关闭ipv6
+<br/>
 默认使用redir-host模式
+<br/>
 未保留fakeip模式, 在测试中已知会造成解析错误、与TUN模式起冲突等多种问题
+<br/>
 默认使用dns53以获得最快响应速度
+<br/>
 保留备用的dot和doh设置, 防止污染情况出现
 
 ### fallback-filter:
 开启GEO-IP
+<br/>
 设置ipcidr - 240.0.0.0/4
+<br/>
 添加部分常用域名
 
 ### 系统层代理:
 0.13.8版本之后, 此设置已从TAP网卡模式替换为TUN模式, 以获得更好的性能
+1.<br/>
 设置WinTUN配合Service Mode接管不遵循系统代理的软件
 
 ### proxy-groups:
