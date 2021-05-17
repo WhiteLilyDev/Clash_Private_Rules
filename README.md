@@ -22,7 +22,7 @@ ipv6: false
 external-controller: 127.0.0.1:50048
 
 ## 配置解释:
-### hosts
+### hosts:
 添加了
 <br/>
 mtalk.google.com
