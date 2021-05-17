@@ -4,11 +4,15 @@ private function only
 
 ## 一些修改过的设置:
 port: 7890
-
+<br/>
 socks-port: 7891
+
 redir-port: 7892
+
 mixed-port: 7893
+
 allow-lan: false
+
 mode: Rule
 log-level: error
 ipv6: false
