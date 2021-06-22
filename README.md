@@ -50,8 +50,7 @@ raw.githubusercontent.com
 添加部分常用域名
 
 ### 系统层代理:
-0.13.8版本之后, 此设置已从TAP网卡模式替换为TUN模式, 以获得更好的性能
-1.<br/>
+0.13.8版本之后, 此设置已从TAP网卡模式替换为TUN模式, 以获得更好的性能<br/>
 设置WinTUN配合Service Mode接管不遵循系统代理的软件
 
 ### proxy-groups:
